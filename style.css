@@ -1,0 +1,59 @@
+/* インスタ風・高校生っぽい明るいデザイン */
+body {
+  background: #fafafa;
+  font-family: 'Noto Sans JP', Arial, sans-serif;
+  margin: 0;
+  color: #222;
+}
+.insta-header {
+  background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  border-bottom: 2px solid #ffe0e0;
+}
+.insta-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 0.1em;
+  color: #ff5e62;
+}
+.subtitle {
+  color: #ff9966;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+.insta-main {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.insta-post {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(255, 182, 193, 0.15);
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border: 1px solid #ffe0e0;
+}
+.insta-image img {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #ffe0e0;
+}
+.insta-caption {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #ff5e62;
+  background: #fff6f6;
+}
+audio {
+  width: 100%;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+.insta-footer {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+  padding: 1.5rem 0 1rem 0;
+}
