@@ -1,3 +1,34 @@
+.spotify-audio-player {
+  margin: 1.5rem 0 0.5rem 0;
+}
+.spotify-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 0.5rem;
+}
+.spotify-play-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  transition: transform 0.1s;
+}
+.spotify-play-btn:active {
+  transform: scale(0.95);
+}
+.spotify-play-btn.playing svg circle {
+  fill: #1ed760;
+}
+.spotify-volume {
+  width: 120px;
+  accent-color: #1DB954;
+  height: 4px;
+  background: #282828;
+  border-radius: 8px;
+}
 
 /* Spotify風デザイン */
 body {
