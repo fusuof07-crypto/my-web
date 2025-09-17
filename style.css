@@ -1,59 +1,102 @@
-/* インスタ風・高校生っぽい明るいデザイン */
+
+/* Spotify風デザイン */
 body {
-  background: #fafafa;
+  background: #191414;
   font-family: 'Noto Sans JP', Arial, sans-serif;
   margin: 0;
-  color: #222;
+  color: #fff;
 }
-.insta-header {
-  background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
+.spotify-header {
+  background: #1DB954;
+  padding: 1.5rem 0 1rem 0;
   text-align: center;
-  padding: 2rem 1rem 1rem 1rem;
-  border-bottom: 2px solid #ffe0e0;
+  border-bottom: 2px solid #191414;
 }
-.insta-header h1 {
-  margin: 0;
-  font-size: 2.2rem;
-  letter-spacing: 0.1em;
-  color: #ff5e62;
+.spotify-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
-.subtitle {
-  color: #ff9966;
-  font-size: 1.1rem;
-  margin-top: 0.5rem;
+.spotify-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 0.05em;
 }
-.insta-main {
-  max-width: 500px;
+.spotify-main {
+  max-width: 400px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
-.insta-post {
-  background: #fff;
+.spotify-player {
+  background: #282828;
   border-radius: 16px;
-  box-shadow: 0 2px 8px rgba(255, 182, 193, 0.15);
+  box-shadow: 0 2px 8px rgba(30, 185, 84, 0.15);
+  padding: 2rem 1rem 1rem 1rem;
   margin-bottom: 2rem;
-  overflow: hidden;
-  border: 1px solid #ffe0e0;
-}
-.insta-image img {
-  width: 100%;
-  display: block;
-  border-bottom: 1px solid #ffe0e0;
-}
-.insta-caption {
-  padding: 1rem;
-  font-size: 1rem;
-  color: #ff5e62;
-  background: #fff6f6;
-}
-audio {
-  width: 100%;
-  display: block;
-  margin: 0 auto 1rem auto;
-}
-.insta-footer {
   text-align: center;
-  color: #aaa;
+}
+.spotify-cover {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(30,185,84,0.15);
+}
+.spotify-track-info h2 {
+  margin: 0.5rem 0 0.2rem 0;
+  font-size: 1.3rem;
+  color: #1DB954;
+}
+.spotify-track-info p {
+  margin: 0 0 1rem 0;
+  color: #b3b3b3;
+  font-size: 1rem;
+}
+.spotify-audio {
+  width: 100%;
+  margin: 1rem 0;
+  accent-color: #1DB954;
+}
+.spotify-tags {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.spotify-tags span {
+  background: #1DB954;
+  color: #191414;
+  border-radius: 12px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+.spotify-gallery {
+  background: #282828;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(30, 185, 84, 0.10);
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.spotify-gallery img {
+  width: 80%;
+  max-width: 260px;
+  border-radius: 10px;
+  margin-bottom: 0.7rem;
+}
+.spotify-caption {
+  color: #1DB954;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.spotify-footer {
+  text-align: center;
+  color: #b3b3b3;
   font-size: 0.9rem;
   padding: 1.5rem 0 1rem 0;
+  background: #191414;
 }
